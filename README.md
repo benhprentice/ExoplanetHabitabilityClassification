@@ -1,5 +1,3 @@
-# PROJECT FORMAT
-
 #  Predicting Habitability Using PHL Exoplanet Catalog
 **Benjamin Prentice, Noah Psutka** 
 
