@@ -63,10 +63,13 @@ can be used to narrow the search of stars for habitable planets.
      * Scikit-Learn - cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
     
      ![image](confusionmatrix.png)
+     ![image](TSNE.png)
      
      * Seaborn - heatmap, pairplot, histplot, scatterplot
 
      ![image](heatmap.png)
+     ![image](pairplot.png)
+     ![image](histplot.png)
      
      * Pandas - read_csv, dataframe
      * Numpy
