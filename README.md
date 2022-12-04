@@ -75,6 +75,8 @@ can be used to narrow the search of stars for habitable planets.
      * Numpy
      * Matplotlib - hist, plot formatting
      * Imblearn - RandomOverSampler
+     
+     ![image](randomoversampler.png)
 
 ## Exploratory Data Analysis 
 
