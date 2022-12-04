@@ -126,17 +126,13 @@ can be used to narrow the search of stars for habitable planets.
 
 ## Experiments 
 
+* We used a cross validation score to score the model. 
+* The main metric we used to determine if our model was working well was by watching for when the model would 
+    correctly label the labels of planet-habitablity as 1 or 2, a bad model would label everything as class label 0
+* Our models significantly outperformed the baseline models. Our early cross-validation scores were 0.6, but we were able to achieve 0.99
+
 # ADD HERE
 
-This section should only contain final version of the experiments. Please use visualizations whenever possible.
-* Describe how did you evaluate your solution 
-  * What evaluation metrics did you use?
-  - We used a cross validation score to score the model. 
-    The main metric we used to determine if our model was working well was by watching for when the model would 
-    correctly label the labels of planet-habitablity as 1 or 2, a bad model would label everything as class label 0
-* Describe a baseline model. 
-  * How much did your model outperform the baseline?
-  Our models significantly outperformed the baseline models. Our early cross-validation scores were 0.6, but we were able to achieve 0.99
 * Were there other models evaluated on the same dataset(s)? 
   * How did your model do in comparison to theirs? 
   * Show graphs/tables with results 
