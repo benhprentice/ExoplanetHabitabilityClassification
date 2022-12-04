@@ -15,7 +15,7 @@
 ## Problem Statement
 
 * We will be using a binary classification prediction model. The
-class label we will be predict will be in regards to the habitability of a planet;
+class label we will predict will be in regards to the habitability of a planet;
 not-habitable = 0, habitable = 1
 
 * Typical algorithms used for binary classification are KNN, Logistic Regression,
