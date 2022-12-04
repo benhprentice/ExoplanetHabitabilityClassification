@@ -93,8 +93,8 @@ can be used to narrow the search of stars for habitable planets.
 
 * The alogrithms we used for data preprocessing were StandardScaler and RandomOversampler.
  
-  ![image](pairplot.png)
-  ![image](histplot.png)
+  ![image](.png)
+  ![image](randomoversampler.png)
   
 * Justify methods for feature normalization selection and the modeling approach you are planning to use. 
 
