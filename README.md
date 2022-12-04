@@ -91,8 +91,10 @@ can be used to narrow the search of stars for habitable planets.
 
 <Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
 
-* Describe the methods you explored (usually algorithms, or data wrangling approaches). 
-  * Include images. 
+* The alogrithms we used for data preprocessing were StandardScaler and RandomOversampler.
+ 
+  ![image](pairplot.png)
+  ![image](histplot.png)
   
 * Justify methods for feature normalization selection and the modeling approach you are planning to use. 
 
