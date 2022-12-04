@@ -1,16 +1,11 @@
-#  Predicting Habitability Using The PHL Exoplanet Catalog
+#  Predicting Habitability Using the PHL Exoplanet Catalog
 **Benjamin Prentice, Noah Psutka** 
 
 * [Dataset](https://www.kaggle.com/datasets/chandrimad31/phl-exoplanet-catalog) 
 
 ## Project Summary
 
-# ADD HERE
-
-<Complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566) assignment submission. See github.com repositories on how people shortblurb thre project e.g. REMOVE: It is a standalone section. It is written to give the reader a summary of your work. Be sure to specific, yet brief. Write this paragraph last (150-300 words)
-
-<Fully rewrite the summary as the last step for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
+* The goal of our project was to predict the habitability of exoplanets (planets outside of our solar system) using the PHL Exoplanet Catalog. This dataset consists of data obtained by ground and space telescopes. Over the course of our project, we combined target features to make this a binary classification problem. 
 
 ## Problem Statement
 
