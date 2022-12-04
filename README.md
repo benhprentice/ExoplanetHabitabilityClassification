@@ -34,7 +34,7 @@ imbalanced binary tasks.
 features are the strongest predictors for a planet to be habitable. This information
 can be used to narrow the search of stars for habitable planets.
 
-## Dataset [Work-in-Progress]
+## Dataset
     
 * Description: Prior to preprocessing dataset, the dataframe size is (4048, 112). We narrowed down the dataset to only contain columns/variables that were relevant to our problem.
     
@@ -51,8 +51,7 @@ can be used to narrow the search of stars for habitable planets.
      * P_ESI - Earth Similarity Index, a measure of similarity to Earth's stellar flux, and mass or radius (Earth=1.0)
      * P_HABZONE_OPT - in the habitable zone of a star ( binary classification )
     
-* If you are using benchmarks, describe the data in details. If you are collecting data, describe why, how, data format, volume, labeling, etc.>
-    * Benchmarks:
+* Benchmarks:
     We are evaluating other published models to use as benchmarks. None has been chosen yet. Another benchmark used was our intitial model.
     
 # ADD HERE
