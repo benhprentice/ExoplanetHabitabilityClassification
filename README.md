@@ -87,16 +87,14 @@ can be used to narrow the search of stars for habitable planets.
     * Confusion matrices can help us to evaluate the accuracy of a model.
     * Heatmaps help us see correlation between features.
     
-# ADD HERE
-
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
 * The alogrithms we used for data preprocessing were StandardScaler and RandomOversampler.
  
   ![image](standardscaler.png)
   ![image](randomoversampler.png)
   ![image](preros.png)
   ![image](postros.png)
+  
+# ADD HERE
   
 * Justify methods for feature normalization selection and the modeling approach you are planning to use. 
 
