@@ -110,28 +110,19 @@ can be used to narrow the search of stars for habitable planets.
    * What is the family of machine learning algorithms you are using and why?
     
     We will be using classification algorithms, because our target is a binary classification. We plan on trying logistic regression, support vector machines, decision trees, and K-nearest neighbors algorithms.
-    
-# ADD HERE
 
-<Expand and complete for [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
-* Describe the methods/datasets (you can have unscaled, selected, scaled version, multiple data frames) that you ended up using for modeling. 
-
-   We used the PHL Exoplanet Catalog. Features used are:  
+* We used the PHL Exoplanet Catalog. Features used are:  
     
    P_OMEGA_ERROR_MA, S_DISTANCE, S_SNOW_LINE, P_ECCENTRICITY_ERROR_MAX, P_RADIUS_EST, S_MASS, S_TEMPERATURE, S_METALLICITY, S_AGE,  S_TIDAL_LOCK, P_TEMP_EQUIL, P_TPERI, P_HABZONE_CON, P_ESI, P_HABZONE_OPT
     
-   These features were scaled using Standard Scaler. 
-
-* Justify the selection of machine learning tools you have used
-  * How they informed the next steps? 
+   * These features were scaled using Standard Scaler. 
   
-  We used a correlation matrix to determine the features that were heavily correlated with each other. This allowed us to drop features that would have skewed the results. 
-  We used Label Encoder to determine if there was any correlation between habitability and the feature columns that contained objects.
-  We used a pairplot to visualize the relationship between features and habitability.
-  We used confusion matrices which led us to combine classes 1 & 2.
+  * We used a correlation matrix to determine the features that were heavily correlated with each other. This allowed us to drop features that would have skewed the results. 
+  * We used Label Encoder to determine if there was any correlation between habitability and the feature columns that contained objects.
+  * We used a pairplot to visualize the relationship between features and habitability which gave us further confidence in our decisions.
+  * We used confusion matrices which led us to combine classes 1 & 2.
 
-# ADD HERE
+# MAYBE ADD MORE HERE
 * Make sure to include at least twp models: (1) baseline model, and (2) improvement model(s).  
    * The baseline model is typically the simplest model that's applicable to that data problem, something we have learned in the class. 
    * Our baseline models use logistic regression and SVMs.
