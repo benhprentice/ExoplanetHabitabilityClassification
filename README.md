@@ -56,7 +56,18 @@ can be used to narrow the search of stars for habitable planets.
 
 * Processing Tools Used: 
     
-     * Scikit-Learn - cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
+     * Scikit-Learn - cross_val_score, StandardScaler, LabelEncoder, train_test_split   
+     * Pandas - read_csv, dataframe
+     * Numpy
+     * Imblearn - RandomOverSampler
+     
+     ![image](randomoversampler.png)
+
+## Exploratory Data Analysis 
+
+* EDA graphs - 
+    
+    * Scikit-Learn - TSNE, PCA, ConfusionMatrixDisplay
     
      ![image](confusionmatrix.png)
      ![image](TSNE.png)
@@ -67,18 +78,7 @@ can be used to narrow the search of stars for habitable planets.
      ![image](pairplot.png)
      ![image](histplot.png)
      
-     * Pandas - read_csv, dataframe
-     * Numpy
      * Matplotlib - hist, plot formatting
-     * Imblearn - RandomOverSampler
-     
-     ![image](randomoversampler.png)
-
-## Exploratory Data Analysis 
-
-* EDA graphs - 
-    
-    We plan on using pairplots, histograms, confusion matrices, and heatmaps. Other EDA graphs will likely be very useful.
     
 * Why? - 
     
@@ -86,6 +86,7 @@ can be used to narrow the search of stars for habitable planets.
     * Histograms can give us a closer look at this data.
     * Confusion matrices can help us to evaluate the accuracy of a model.
     * Heatmaps help us see correlation between features.
+    * TSNE and PCA give us the ability to view data in two dimensions.
     
 * The alogrithms we used for data preprocessing were StandardScaler and RandomOversampler.
  
