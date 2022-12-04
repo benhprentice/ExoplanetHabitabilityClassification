@@ -53,11 +53,8 @@ can be used to narrow the search of stars for habitable planets.
     
 * Benchmarks:
     We are evaluating other published models to use as benchmarks. None has been chosen yet. Another benchmark used was our intitial model.
-    
-# ADD HERE
 
-* What Processing Tools have you used.  Why?  Add final images from jupyter notebook. Use questions from 3.4 of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper for a guide.>
-    * Processing Tools Used: 
+* Processing Tools Used: 
     
      * Scikit-Learn - cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
     
