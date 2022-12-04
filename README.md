@@ -117,12 +117,9 @@ can be used to narrow the search of stars for habitable planets.
   * We used a pairplot to visualize the relationship between features and habitability which gave us further confidence in our decisions.
   * We used confusion matrices which led us to combine classes 1 & 2.
 
-* Make sure to include at least two models: (1) baseline model, and (2) improvement model(s).  
-   * The baseline model is typically the simplest model that's applicable to that data problem, something we have learned in the class. 
-   * Our baseline model were created using logistic regression or SVM ran on the base dataset. We selected the features to test on, 
-   and then ran the models on the data prior to preprocessing the features, then we ran the models again after processing the data
-   * Improvement model(s) are available on Kaggle challenge site, and you can research github.com and papers with code for approaches.  
-   * Improvement models could include XGBoost and machine learning methods for replacing null values.
+* Our baseline model were created using logistic regression or SVM ran on the base dataset. We selected the features to test on, 
+   and then ran the models on the data prior to preprocessing the features, then we ran the models again after processing the data.  
+* Improvement models could include XGBoost and machine learning methods for replacing null values.
 
 ## Experiments 
 
