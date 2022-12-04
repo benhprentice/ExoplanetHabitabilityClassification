@@ -146,7 +146,7 @@ can be used to narrow the search of stars for habitable planets.
 * Other projects were done on the same data set with good results. 
 * [Example Notebook](https://www.kaggle.com/code/chandrimad31/a-small-research-on-exoplanet-habitability)
     * In this example the author used something called PassiveAggresiveSampler with good results in classifying all three targets.
-   ![image](other_example.png)
+  ![image](other_example.png)
 
 ## Conclusion
 
