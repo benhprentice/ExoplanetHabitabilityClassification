@@ -94,9 +94,7 @@ can be used to narrow the search of stars for habitable planets.
   ![image](preros.png)
   ![image](postros.png)
   
-# ADD HERE
-  
-* Justify methods for feature normalization selection and the modeling approach you are planning to use. 
+* StandardScaler was used because it seemed the most widely used way to scale features. Normalization was attempted but with little change to our results.
 
 ## Data Preprocessing 
 
