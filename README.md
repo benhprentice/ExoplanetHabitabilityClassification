@@ -43,18 +43,18 @@
     
 * Description: Prior to preprocessing dataset, the dataframe size is (4048, 112). We narrowed down the dataset to only contain columns/variables that were relevant to our problem.
     
-    Some notable features are:
+    * Some notable features are:
     
-    S_METALLICITY          abundance of elements present in the planet that are heavier than hydrogen and helium
-    S_AGE                  age of the planet 
-    S_TIDAL_LOCK           situation in which an astronomical object's orbital period matches its rotational period
-    P_TEMP_EQUIL_MIN       minimum temperature estimated in degrees Kelvin
-    P_TEMP_EQUIL           average temperature estimated in degrees Kelvin
-    P_TPERI                time of passage at the periapse for eccentric orbits
-    P_TEMP_EQUIL_MAX       maximum temperature estimated in degrees Kelvin
-    P_HABZONE_CON          not in the habitable zone of a star ( binary classification )
-    P_ESI                  Earth Similarity Index, a measure of similarity to Earth's stellar flux, and mass or radius (Earth=1.0)
-    P_HABZONE_OPT          in the habitable zone of a star ( binary classification )
+     * S_METALLICITY - abundance of elements present in the planet that are heavier than hydrogen and helium
+     * S_AGE - age of the planet 
+     * S_TIDAL_LOCK - situation in which an astronomical object's orbital period matches its rotational period
+     * P_TEMP_EQUIL_MIN - minimum temperature estimated in degrees Kelvin
+     * P_TEMP_EQUIL - average temperature estimated in degrees Kelvin
+     * P_TPERI - time of passage at the periapse for eccentric orbits
+     * P_TEMP_EQUIL_MAX - maximum temperature estimated in degrees Kelvin
+     * P_HABZONE_CON - not in the habitable zone of a star ( binary classification )
+     * P_ESI - Earth Similarity Index, a measure of similarity to Earth's stellar flux, and mass or radius (Earth=1.0)
+     * P_HABZONE_OPT - in the habitable zone of a star ( binary classification )
     
 * If you are using benchmarks, describe the data in details. If you are collecting data, describe why, how, data format, volume, labeling, etc.>
     * Benchmarks:
@@ -65,16 +65,16 @@
 * What Processing Tools have you used.  Why?  Add final images from jupyter notebook. Use questions from 3.4 of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper for a guide.>
     * Processing Tools Used: 
     
-    Scikit-Learn   cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
+     * Scikit-Learn - cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
     
     ![image](heatmap.png)
     ![image](confusionmatrix.png)
-    
-    Seaborn        heatmap, pairplot, histplot, scatterplot
-    Pandas         read_csv, dataframe
-    Numpy
-    Matplotlib     hist, plot formatting
-    Imblearn       RandomOverSampler
+     
+     * Seaborn - heatmap, pairplot, histplot, scatterplot
+     * Pandas - read_csv, dataframe
+     * Numpy
+     * Matplotlib - hist, plot formatting
+     * Imblearn - RandomOverSampler
 
 ## Exploratory Data Analysis 
 
