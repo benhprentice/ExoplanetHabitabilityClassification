@@ -76,16 +76,16 @@ can be used to narrow the search of stars for habitable planets.
 
 ## Exploratory Data Analysis 
 
-* What EDA graphs you are planning to use? 
+* EDA graphs - 
     
     We plan on using pairplots, histograms, confusion matrices, and heatmaps. Other EDA graphs will likely be very useful.
     
-* Why? - Add figures if any
+* Why? - 
     
-    Pairplots can help us visualize the correlation between each feature.
-    Histograms can give us a closer look at this data.
-    Confusion matrices can help us to evaluate the accuracy of a model.
-    Heatmaps help us see correlation between features.
+    * Pairplots can help us visualize the correlation between each feature.
+    * Histograms can give us a closer look at this data.
+    * Confusion matrices can help us to evaluate the accuracy of a model.
+    * Heatmaps help us see correlation between features.
     
 # ADD HERE
 
