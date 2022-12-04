@@ -148,7 +148,9 @@ can be used to narrow the search of stars for habitable planets.
 # ADD HERE
 * Make sure to include at least twp models: (1) baseline model, and (2) improvement model(s).  
    * The baseline model is typically the simplest model that's applicable to that data problem, something we have learned in the class. 
+   * Our baseline models use logistic regression and SVMs.
    * Improvement model(s) are available on Kaggle challenge site, and you can research github.com and papers with code for approaches.  
+   * Improvement models could include XGBoost and machine learning methods for replacing null values.
 
 ## Experiments 
 
