@@ -43,7 +43,7 @@
     
 * Description: Prior to preprocessing dataset, the dataframe size is (4048, 112). We narrowed down the dataset to only contain columns/variables that were relevant to our problem.
     
-    * Some notable features are:
+* Some notable features are:
     
      * S_METALLICITY - abundance of elements present in the planet that are heavier than hydrogen and helium
      * S_AGE - age of the planet 
