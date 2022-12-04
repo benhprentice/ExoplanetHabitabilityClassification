@@ -144,7 +144,7 @@ can be used to narrow the search of stars for habitable planets.
 * Our models significantly outperformed the baseline models. Our early cross-validation scores were 0.6, but we were able to achieve 0.99
 
 * Other projects were done on the same data set with good results. 
-* [Example Notebook]([https://www.kaggle.com/code/chandrimad31/a-small-research-on-exoplanet-habitability])
+* [Example Notebook](https://www.kaggle.com/code/chandrimad31/a-small-research-on-exoplanet-habitability)
     * In this example the author used something called PassiveAggresiveSampler with good results in classifying all three targets.
    ![image](other_example.png)
 
