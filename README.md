@@ -67,10 +67,12 @@
     
      * Scikit-Learn - cross_val_score, TSNE, PCA, StandardScaler, ConfusionMatrixDisplay, LabelEncoder, train_test_split
     
-    ![image](heatmap.png)
-    ![image](confusionmatrix.png)
+     ![image](confusionmatrix.png)
      
      * Seaborn - heatmap, pairplot, histplot, scatterplot
+
+     ![image](heatmap.png)
+     
      * Pandas - read_csv, dataframe
      * Numpy
      * Matplotlib - hist, plot formatting
