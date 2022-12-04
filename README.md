@@ -143,12 +143,10 @@ can be used to narrow the search of stars for habitable planets.
 * The main metric we used to determine if our model was working well was by watching for when the model would correctly label the labels of planet-habitablity as 1 or 2, a bad model would label everything as class label 0
 * Our models significantly outperformed the baseline models. Our early cross-validation scores were 0.6, but we were able to achieve 0.99
 
-# ADD HERE
-
-* Were there other models evaluated on the same dataset(s)? 
-  * How did your model do in comparison to theirs? 
-  * Show graphs/tables with results 
-  * Present error analysis and suggestions for future improvement. 
+* Other projects were done on the same data set with good results. 
+* [Example]([https://www.kaggle.com/code/chandrimad31/a-small-research-on-exoplanet-habitability])
+    * In this example the author used something called PassiveAggresiveSampler with good results in classifying all three targets.
+    
 
 ## Conclusion
 
