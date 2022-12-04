@@ -111,7 +111,20 @@ can be used to narrow the search of stars for habitable planets.
 
 * We used the PHL Exoplanet Catalog. Features used are:  
     
-        * P_OMEGA_ERROR_MA, S_DISTANCE, S_SNOW_LINE, P_ECCENTRICITY_ERROR_MAX, P_RADIUS_EST, S_MASS, S_TEMPERATURE, S_METALLICITY, S_AGE,  S_TIDAL_LOCK, P_TEMP_EQUIL, P_TPERI, P_HABZONE_CON, P_ESI, P_HABZONE_OPT
+        * P_OMEGA_ERROR_MA
+        * S_DISTANCE
+        * S_SNOW_LINE
+        * P_ECCENTRICITY_ERROR_MAX
+        * P_RADIUS_EST
+        * S_MASS, S_TEMPERATURE
+        * S_METALLICITY
+        * S_AGE
+        * S_TIDAL_LOCK
+        * P_TEMP_EQUIL
+        * P_TPERI
+        * P_HABZONE_CON
+        * P_ESI
+        * P_HABZONE_OPT
     
    * These features were scaled using Standard Scaler. 
   
