@@ -5,7 +5,7 @@
 
 ## Project Summary
 
-* The goal of our project was to predict the habitability of exoplanets (planets outside of our solar system) using the PHL Exoplanet Catalog. This dataset consists of data obtained by ground and space telescopes. Over the course of our project, we combined target features to make this a binary classification problem. 
+* The goal of our project was to predict the habitability of exoplanets (planets outside of our solar system) using the PHL Exoplanet Catalog. This dataset consists of data obtained by ground and space telescopes. Over the course of our project, we combined target features to make this a binary classification problem. Features with high correlation to the targe were combined into one dataset. Exploratory data analysis using multiple libraries helped us determine the proper direction to take our project. Heatmaps showed us the features that were heavily correlated with each other. Confusion matrices were a big help in determining the effectiveness of our models. Cross-validation was used to check for overfitting. Both logistic regression and SVM proved to be effective methods for building models. TSNE gave us the ability to visualize our data in two dimensions. This was a challenging and fun project. We plan to experiment with new methods and work to make our models stronger in the future.
 
 ## Problem Statement
 
