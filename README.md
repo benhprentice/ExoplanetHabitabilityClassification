@@ -144,14 +144,9 @@ This section should only contain final version of the experiments. Please use vi
 
 ## Conclusion
 
-# ADD HERE
-
-* What did not work? 
-* What do you think why? 
-    Scaling the data did not work to improve the model, the way we scored our model was not effected by this change, but
-    other metrics may be changed by processing the data with scaling
-* What were approaches, tuning model parameters you have tried?
-    We tried tuning the model to work with multiple class labels, or having them only deal with two class labels. The binary models
+* Scaling the data did not work to improve the model, the way we scored our model was not effected by this change, but
+    other metrics may be changed by processing the data with scaling.
+* We tried tuning the model to work with multiple class labels, or having them only deal with two class labels. The binary models
     worked significantly better for our data
 * What features worked well and what didn't? 
 * When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. 
