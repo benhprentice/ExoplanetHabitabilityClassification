@@ -94,7 +94,7 @@ can be used to narrow the search of stars for habitable planets.
     * Heatmaps help us see correlation between features.
     * TSNE and PCA give us the ability to view data in two dimensions.
     
-* The alogrithms we used for data preprocessing were StandardScaler and RandomOversampler.
+* The algorithms we used for data processing were StandardScaler and RandomOversampler.
  
   ![image](standardscaler.png)
   ![image](randomoversampler.png)
