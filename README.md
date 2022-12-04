@@ -133,8 +133,6 @@ can be used to narrow the search of stars for habitable planets.
 
 # ADD HERE
 
-<Complete for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
 This section should only contain final version of the experiments. Please use visualizations whenever possible.
 * Describe how did you evaluate your solution 
   * What evaluation metrics did you use? 
@@ -149,19 +147,9 @@ This section should only contain final version of the experiments. Please use vi
 
 # ADD HERE
 
-<Complete for the [Project Submission](https://canvas.txstate.edu/courses/1993336/assignments/27480566)>
-
 * What did not work? 
 * What do you think why? 
 * What were approaches, tuning model parameters you have tried? 
 * What features worked well and what didn't? 
 * When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. 
 * How was that a data-driven decision? Be consise, all details can be left in .ipynb
-
- 
- **Submission Format** 
- 
-1. Python code with markdown documentation, images saved in .jpg or .png format, and README.md as a project report
-2. Jupyter notebook (.ipynb) that contains full markdown sections as listed above 
-
-## Now go back and write the summary at the top of the page
