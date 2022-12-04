@@ -111,8 +111,8 @@ can be used to narrow the search of stars for habitable planets.
 
 * We used the PHL Exoplanet Catalog. Features used are:  
     
-        * P_OMEGA_ERROR_MA
-        * S_DISTANCE
+        P_OMEGA_ERROR_MA
+        S_DISTANCE
         * S_SNOW_LINE
         * P_ECCENTRICITY_ERROR_MAX
         * P_RADIUS_EST
