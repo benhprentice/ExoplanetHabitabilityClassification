@@ -1,4 +1,4 @@
-#  Predicting Habitability Using PHL Exoplanet Catalog
+#  Predicting Habitability Using The PHL Exoplanet Catalog
 **Benjamin Prentice, Noah Psutka** 
 
 * [Dataset](https://www.kaggle.com/datasets/chandrimad31/phl-exoplanet-catalog) 
