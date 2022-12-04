@@ -52,6 +52,7 @@ can be used to narrow the search of stars for habitable planets.
      * P_HABZONE_OPT - in the habitable zone of a star ( binary classification )
     
 * Benchmarks:
+
     We are evaluating other published models to use as benchmarks. None has been chosen yet. Another benchmark used was our intitial model.
 
 * Processing Tools Used: 
@@ -61,7 +62,12 @@ can be used to narrow the search of stars for habitable planets.
      * Numpy
      * Imblearn - RandomOverSampler
      
-     ![image](randomoversampler.png)
+## Data Preprocessing 
+
+* We replaced null values with the mean.
+* We eliminated features that have very low correlation with the target.
+* We also eliminated features that had very high correlation with each other. 
+* We used Standard Scaler to scale our dataset.
 
 ## Exploratory Data Analysis 
 
@@ -97,10 +103,6 @@ can be used to narrow the search of stars for habitable planets.
   
 * StandardScaler was used because it seemed the most widely used way to scale features. Normalization was attempted but with little change to our results.
 
-## Data Preprocessing 
-
-* We used Standard Scaler to scale our dataset. We also eliminated features that had very high correlation with each other.
-
 ## Machine Learning Approaches
 
 * We will test different models and log any improvement with each. We have already seen marked improvement by using different techniques, such as random oversampling.
@@ -125,8 +127,7 @@ can be used to narrow the search of stars for habitable planets.
 ## Experiments 
 
 * We used a cross validation score to score the model. 
-* The main metric we used to determine if our model was working well was by watching for when the model would 
-    correctly label the labels of planet-habitablity as 1 or 2, a bad model would label everything as class label 0
+* The main metric we used to determine if our model was working well was by watching for when the model would correctly label the labels of planet-habitablity as 1 or 2, a bad model would label everything as class label 0
 * Our models significantly outperformed the baseline models. Our early cross-validation scores were 0.6, but we were able to achieve 0.99
 
 # ADD HERE
@@ -142,6 +143,5 @@ can be used to narrow the search of stars for habitable planets.
     other metrics may be changed by processing the data with scaling.
 * We tried tuning the model to work with multiple class labels, or having them only deal with two class labels. The binary models
     worked significantly better for our data
-* What features worked well and what didn't? 
-* When describing methods that didn't work, make clear how they failed and any evaluation metrics you used to decide so. 
-* How was that a data-driven decision? Be consise, all details can be left in .ipynb
+* SVM and logistic regression performed very well for binary classification.
+* SVM and logistic regression performed terribly for predicting three classes, before we merged two of them. This can be expected since those algorithms are primarily for binary classification. We were able to evaluate the effectiveness using confusion matrices.
