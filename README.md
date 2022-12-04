@@ -98,17 +98,9 @@ can be used to narrow the search of stars for habitable planets.
 
 ## Data Preprocessing 
 
-# MAYBE ADD MORE HERE
-
-* Have you considered Dimensionality Reduction or Scaling? 
-  * If yes, include steps here. 
+* We used Standard Scaler to scale our dataset. We also eliminated features that had very high correlation with each other. 
   
-  We used Standard Scaler to scale our dataset. We also eliminated features that had very high correlation with each other. 
-  
-* What did you consider but *not* use? Why? 
-
-  We considered using Decision Trees but did not use them in the end. Our logistic regression and SVM models were sufficient. 
-
+* We considered using Decision Trees and KNN but did not use them in the end. Our logistic regression and SVM models were sufficient. 
 
 ## Machine Learning Approaches
 
